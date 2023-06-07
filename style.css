@@ -103,6 +103,9 @@ h1 {
     margin-top: 20px;
      
 }
+.comingsoon {
+    opacity: 0.5;
+}
 .button2{
     width: 200px;
     height: 20px;
