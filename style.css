@@ -9,7 +9,9 @@ body{
     cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur970.cur), auto !important;
     
 }
-
+html {
+    scroll-behavior: smooth;
+}
 section {
     
     background-color: white;
