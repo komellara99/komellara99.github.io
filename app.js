@@ -4,6 +4,13 @@ const navList = document.getElementById('nav-list')
 function toggleButton() {
     navList.classList.toggle('show')
 }
+function toggleVisibility() {
+    var moreProjectsDiv = document.getElementById('moreProjects');
+    var moreProjectsButton = document.getElementById('morebttn');
+    moreProjectsDiv.style.display = 'block';
+    moreProjectsButton.style.backgroundColor = '#808080'
+    moreProjectsButton.classList.remove('button3');
+  }
 
 hamburgerButton.addEventListener('click', toggleButton)
 
@@ -107,4 +114,6 @@ const observer2 = new IntersectionObserver((entries) => {
 })
 const hiddenEls2 = document.querySelectorAll('.hiddenr');
 hiddenEls2.forEach((el) => observer2.observe(el));
+
+
 
