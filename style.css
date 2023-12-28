@@ -54,6 +54,15 @@ ul{
     font-size: 27px;
     
 }
+#moreProjects {
+    display: none;
+}
+#moreProjectsButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ul.show{
     display: block;
 }
@@ -135,7 +144,7 @@ a {
     text-decoration: none;
     color: inherit;
   }
-.button2:hover{
+.button3:hover{
     /*background-color: #b56576;*/
     background-color: #a5bba1;
     padding: 12px 22px;
@@ -643,7 +652,7 @@ h2{
 }
 .project-image-new{
     align-self: center;
-    width: 150px;
+    width: 122.16px;
     height: 120px;
     border-radius: 15px 0 0 15px;
     opacity: 0.8;
@@ -757,3 +766,4 @@ h2{
     
     
 }
+
